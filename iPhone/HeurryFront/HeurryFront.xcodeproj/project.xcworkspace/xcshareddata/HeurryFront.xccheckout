@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>517E35CA-356D-46C6-9B85-B454472FCA99</string>
+	<string>D4D382CB-C5BA-4F91-818C-5EEC5C957423</string>
 	<key>IDESourceControlProjectName</key>
 	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,7 +14,7 @@
 		<string>https://github.com/danydra/HeurryGit.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>iPhone/Heury/Heury.xcodeproj/project.xcworkspace</string>
+	<string>iPhone/HeurryFront/HeurryFront.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>BA0B1C2975A60D5A5309C2E10367091431032EC6</key>

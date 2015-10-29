@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Heury.xcscheme</key>
+		<key>HeurryFront.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3B9E73B31BDF8CF2008E4B8B</key>
+		<key>3B723F7E1BE23C7400025F01</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3B9E73C81BDF8CF2008E4B8B</key>
+		<key>3B723F931BE23C7400025F01</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Heury
+//  HeurryFront
 //
-//  Created by Dany Anani on 27/10/2015.
+//  Created by Dany Anani on 29/10/2015.
 //  Copyright (c) 2015 TSD. All rights reserved.
 //
 

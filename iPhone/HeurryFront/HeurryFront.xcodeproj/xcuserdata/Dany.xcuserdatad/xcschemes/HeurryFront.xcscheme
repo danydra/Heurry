@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3B9E73B31BDF8CF2008E4B8B"
-               BuildableName = "Heury.app"
-               BlueprintName = "Heury"
-               ReferencedContainer = "container:Heury.xcodeproj">
+               BlueprintIdentifier = "3B723F7E1BE23C7400025F01"
+               BuildableName = "HeurryFront.app"
+               BlueprintName = "HeurryFront"
+               ReferencedContainer = "container:HeurryFront.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3B9E73C81BDF8CF2008E4B8B"
-               BuildableName = "HeuryTests.xctest"
-               BlueprintName = "HeuryTests"
-               ReferencedContainer = "container:Heury.xcodeproj">
+               BlueprintIdentifier = "3B723F931BE23C7400025F01"
+               BuildableName = "HeurryFrontTests.xctest"
+               BlueprintName = "HeurryFrontTests"
+               ReferencedContainer = "container:HeurryFront.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3B9E73C81BDF8CF2008E4B8B"
-               BuildableName = "HeuryTests.xctest"
-               BlueprintName = "HeuryTests"
-               ReferencedContainer = "container:Heury.xcodeproj">
+               BlueprintIdentifier = "3B723F931BE23C7400025F01"
+               BuildableName = "HeurryFrontTests.xctest"
+               BlueprintName = "HeurryFrontTests"
+               ReferencedContainer = "container:HeurryFront.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3B9E73B31BDF8CF2008E4B8B"
-            BuildableName = "Heury.app"
-            BlueprintName = "Heury"
-            ReferencedContainer = "container:Heury.xcodeproj">
+            BlueprintIdentifier = "3B723F7E1BE23C7400025F01"
+            BuildableName = "HeurryFront.app"
+            BlueprintName = "HeurryFront"
+            ReferencedContainer = "container:HeurryFront.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3B9E73B31BDF8CF2008E4B8B"
-            BuildableName = "Heury.app"
-            BlueprintName = "Heury"
-            ReferencedContainer = "container:Heury.xcodeproj">
+            BlueprintIdentifier = "3B723F7E1BE23C7400025F01"
+            BuildableName = "HeurryFront.app"
+            BlueprintName = "HeurryFront"
+            ReferencedContainer = "container:HeurryFront.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,10 +95,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3B9E73B31BDF8CF2008E4B8B"
-            BuildableName = "Heury.app"
-            BlueprintName = "Heury"
-            ReferencedContainer = "container:Heury.xcodeproj">
+            BlueprintIdentifier = "3B723F7E1BE23C7400025F01"
+            BuildableName = "HeurryFront.app"
+            BlueprintName = "HeurryFront"
+            ReferencedContainer = "container:HeurryFront.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
