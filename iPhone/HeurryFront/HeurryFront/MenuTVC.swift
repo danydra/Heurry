@@ -14,7 +14,7 @@ class MenuTVC: UITableViewController {
     
     override func viewDidLoad() {
         
-        tabMenu = ["Prendre RDV","Mes RDV","Mon compte"]
+        tabMenu = ["Prendre RDV","Mes RDV","Mes Favoris","Mon Compte","Réglages","Autres"]
         
 
     }
@@ -24,7 +24,6 @@ class MenuTVC: UITableViewController {
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         var cell = tableView.dequeueReusableCellWithIdentifier(tabMenu[indexPath.row], forIndexPath: indexPath) as! UITableViewCell
-        
         cell.textLabel?.text = tabMenu[indexPath.row]
         return cell
     }

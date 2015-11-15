@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B1EC54A1BE6E26600ED67BC /* FonctionTransverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1EC5491BE6E26600ED67BC /* FonctionTransverse.swift */; };
+		3B1EC54C1BE6E53C00ED67BC /* MonCompteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1EC54B1BE6E53C00ED67BC /* MonCompteVC.swift */; };
+		3B1EC54F1BE6E5CA00ED67BC /* AutresVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1EC54E1BE6E5CA00ED67BC /* AutresVC.swift */; };
+		3B1EC5511BE6E5E200ED67BC /* ReglageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1EC5501BE6E5E200ED67BC /* ReglageVC.swift */; };
+		3B1EC5531BE6E5FF00ED67BC /* FavoriVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1EC5521BE6E5FF00ED67BC /* FavoriVC.swift */; };
+		3B61EC381BF2EA47007D8F3C /* ConnexionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B61EC371BF2EA47007D8F3C /* ConnexionVC.swift */; };
 		3B723F851BE23C7400025F01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B723F841BE23C7400025F01 /* AppDelegate.swift */; };
 		3B723F871BE23C7400025F01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B723F861BE23C7400025F01 /* ViewController.swift */; };
 		3B723F8A1BE23C7400025F01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B723F881BE23C7400025F01 /* Main.storyboard */; };
@@ -30,6 +36,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B1EC5491BE6E26600ED67BC /* FonctionTransverse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FonctionTransverse.swift; sourceTree = "<group>"; };
+		3B1EC54B1BE6E53C00ED67BC /* MonCompteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonCompteVC.swift; sourceTree = "<group>"; };
+		3B1EC54E1BE6E5CA00ED67BC /* AutresVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutresVC.swift; sourceTree = "<group>"; };
+		3B1EC5501BE6E5E200ED67BC /* ReglageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReglageVC.swift; sourceTree = "<group>"; };
+		3B1EC5521BE6E5FF00ED67BC /* FavoriVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriVC.swift; sourceTree = "<group>"; };
+		3B36FBD21BF5642200FB38F5 /* girolight001.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = girolight001.ttf; path = ../girolight001.ttf; sourceTree = "<group>"; };
+		3B36FBD31BF564BC00FB38F5 /* BebasNeue.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue.ttf; sourceTree = "<group>"; };
+		3B36FBD41BF564BC00FB38F5 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		3B36FBD51BF564BC00FB38F5 /* ufonts_com_avantgarde.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ufonts_com_avantgarde.ttf; sourceTree = "<group>"; };
+		3B61EC371BF2EA47007D8F3C /* ConnexionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnexionVC.swift; sourceTree = "<group>"; };
 		3B723F7F1BE23C7400025F01 /* HeurryFront.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeurryFront.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B723F831BE23C7400025F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B723F841BE23C7400025F01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,9 +82,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B1EC54D1BE6E55400ED67BC /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				3B723FAC1BE2500700025F01 /* MesRdvVC.swift */,
+				3B723FA81BE2424D00025F01 /* PrendreRdvVC.swift */,
+				3B1EC54B1BE6E53C00ED67BC /* MonCompteVC.swift */,
+				3B1EC54E1BE6E5CA00ED67BC /* AutresVC.swift */,
+				3B1EC5501BE6E5E200ED67BC /* ReglageVC.swift */,
+				3B1EC5521BE6E5FF00ED67BC /* FavoriVC.swift */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		3B61EC361BF2EA25007D8F3C /* Connexion */ = {
+			isa = PBXGroup;
+			children = (
+				3B61EC371BF2EA47007D8F3C /* ConnexionVC.swift */,
+			);
+			name = Connexion;
+			sourceTree = "<group>";
+		};
 		3B723F761BE23C7400025F01 = {
 			isa = PBXGroup;
 			children = (
+				3B36FBD31BF564BC00FB38F5 /* BebasNeue.ttf */,
+				3B36FBD41BF564BC00FB38F5 /* OpenSans-Regular.ttf */,
+				3B36FBD51BF564BC00FB38F5 /* ufonts_com_avantgarde.ttf */,
 				3B723F811BE23C7400025F01 /* HeurryFront */,
 				3B723F971BE23C7400025F01 /* HeurryFrontTests */,
 				3B723F801BE23C7400025F01 /* Products */,
@@ -87,12 +127,14 @@
 		3B723F811BE23C7400025F01 /* HeurryFront */ = {
 			isa = PBXGroup;
 			children = (
+				3B36FBD21BF5642200FB38F5 /* girolight001.ttf */,
 				3B723F841BE23C7400025F01 /* AppDelegate.swift */,
 				3B723F861BE23C7400025F01 /* ViewController.swift */,
 				3B723F881BE23C7400025F01 /* Main.storyboard */,
-				3B723FAC1BE2500700025F01 /* MesRdvVC.swift */,
 				3B723FAA1BE244CB00025F01 /* MenuTVC.swift */,
-				3B723FA81BE2424D00025F01 /* PrendreRdvVC.swift */,
+				3B61EC361BF2EA25007D8F3C /* Connexion */,
+				3B1EC54D1BE6E55400ED67BC /* VC */,
+				3B1EC5491BE6E26600ED67BC /* FonctionTransverse.swift */,
 				3B723F8B1BE23C7400025F01 /* Images.xcassets */,
 				3B723F8D1BE23C7400025F01 /* LaunchScreen.xib */,
 				3B723F821BE23C7400025F01 /* Supporting Files */,
@@ -230,10 +272,16 @@
 			files = (
 				3B723F871BE23C7400025F01 /* ViewController.swift in Sources */,
 				3B723FAB1BE244CB00025F01 /* MenuTVC.swift in Sources */,
+				3B1EC5531BE6E5FF00ED67BC /* FavoriVC.swift in Sources */,
 				3B723F851BE23C7400025F01 /* AppDelegate.swift in Sources */,
+				3B1EC54F1BE6E5CA00ED67BC /* AutresVC.swift in Sources */,
 				3B723FAD1BE2500700025F01 /* MesRdvVC.swift in Sources */,
 				3B723FA91BE2424D00025F01 /* PrendreRdvVC.swift in Sources */,
+				3B1EC5511BE6E5E200ED67BC /* ReglageVC.swift in Sources */,
 				3B723FA71BE23EF700025F01 /* SWRevealViewController.m in Sources */,
+				3B1EC54A1BE6E26600ED67BC /* FonctionTransverse.swift in Sources */,
+				3B61EC381BF2EA47007D8F3C /* ConnexionVC.swift in Sources */,
+				3B1EC54C1BE6E53C00ED67BC /* MonCompteVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +484,7 @@
 				3B723FA01BE23C7400025F01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B723FA11BE23C7400025F01 /* Build configuration list for PBXNativeTarget "HeurryFrontTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +493,7 @@
 				3B723FA31BE23C7400025F01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

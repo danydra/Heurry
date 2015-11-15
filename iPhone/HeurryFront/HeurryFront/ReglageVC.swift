@@ -1,14 +1,14 @@
 //
-//  MesRdvVC.swift
+//  ReglageVC.swift
 //  HeurryFront
 //
-//  Created by Dany Anani on 29/10/2015.
+//  Created by Dany Anani on 02/11/2015.
 //  Copyright (c) 2015 TSD. All rights reserved.
 //
 
 import Foundation
 
-class MesRdvVC : UIViewController {
+class ReglageVC: UIViewController {
     
     @IBOutlet weak var barbutton_openMenu: UIBarButtonItem!
     override func viewDidLoad() {

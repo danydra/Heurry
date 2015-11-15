@@ -13,10 +13,8 @@ import UIKit
 
 class PrendreRdvVC: UIViewController {
     
-    
-    //@IBOutlet weak var barbutton_openMenu: UIBarButtonItem!
-    var varView = Int()
-    //@IBOutlet weak var label: UILabel!
+    @IBOutlet weak var barbutton_openMenu: UIBarButtonItem!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -24,7 +22,11 @@ class PrendreRdvVC: UIViewController {
         //barbutton_openMenu.target = self.revealViewController()
         //barbutton_openMenu.action = Selector("revealToggle:")
         
-        self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        showMenu(barbutton_openMenu, self)
+        leftSlide(self)
+
+
+       
         
   
     }
